@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--    默认绿-->
+    <color name="color_green">#078560</color>
+    <color name="color_blue">#32A6FE</color>
+    <color name="color_text_black">#212529</color>
+    <color name="color_666">#666666</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+
+</resources>

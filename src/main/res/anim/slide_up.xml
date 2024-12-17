@@ -1,0 +1,11 @@
+<!-- 从下往上弹出的动画 -->
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <translate android:duration="300"
+    android:fromYDelta="100%"
+    android:toYDelta="0%"
+    android:fillAfter="true" />
+    <!-- 动画持续时间 -->
+    <!-- 起始位置为屏幕下方 -->
+    <!-- 结束位置为原始位置 -->
+    <!-- 动画结束后保持结束状态 -->
+</set>

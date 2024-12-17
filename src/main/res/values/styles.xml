@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="date_picker" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@color/transparent</item>
+    </style>
+
+    <declare-styleable name="ExpandableTextView">
+        <attr name="trimLength" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="XCAutoRecyclerView">
+        <attr name="xc_auto_item_flag">
+            <flag name="no_auto" value="0" />
+            <flag name="all_auto" value="1" />
+            <flag name="width_auto" value="2" />
+            <flag name="height_auto" value="3" />
+        </attr>
+        <attr name="xc_auto_item_width" format="dimension" />
+        <attr name="xc_auto_item_min_width" format="dimension" />
+        <attr name="xc_auto_item_max_width" format="dimension" />
+    </declare-styleable>
+</resources>
